@@ -18,7 +18,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('test',
     'Run tests',
-    ['mochaTest']);
+    ['lint', 'mochaTest']);
 
   grunt.registerTask('lint',
     'Alias for jshint and jscs tasks',
