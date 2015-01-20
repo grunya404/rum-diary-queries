@@ -1,0 +1,34 @@
+{
+  "name": "rum-diary-queries",
+  "version": "0.0.0",
+  "description": "DB queries for rum-diary.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "author": "",
+  "license": "MPL 2.0",
+  "repository": "shane-tomlinson/rum-diary-queries",
+  "homepage": "https://github.com/shane-tomlinson/rum-diary-queries/",
+  "bugs": "https://github.com/shane-tomlinson/rum-diary-queries/issues/",
+  "dependencies": {
+    "bluebird": "2.8.0",
+    "easierobject": "0.0.4",
+    "glob-require": "0.0.1",
+    "moment": "2.9.0",
+    "think-stats": "0.0.21"
+  },
+  "devDependencies": {
+    "chai": "1.10.0",
+    "grunt": "0.4.5",
+    "grunt-build-control": "0.2.2",
+    "grunt-bump": "0.0.16",
+    "grunt-contrib-jshint": "0.10.0",
+    "grunt-contrib-watch": "0.6.1",
+    "grunt-conventional-changelog": "1.1.0",
+    "grunt-copyright": "0.1.0",
+    "grunt-jscs": "1.2.0",
+    "grunt-mocha-test": "0.12.6",
+    "load-grunt-tasks": "2.0.0"
+  }
+}

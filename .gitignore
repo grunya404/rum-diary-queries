@@ -1,0 +1,33 @@
+###  npm modules ###
+node_modules/
+
+### generated include.js ###
+client/src/include.js
+
+### main.css is generated ###
+client/src/css/main.css
+
+### bundles are generated js ###
+*bundle*.js
+
+### fonts are copied from connect-fonts ###
+client/src/css/fonts
+client/src/fonts
+
+### built prod client side resources
+client/dist/
+
+### logs ###
+server/var
+
+### local.json is user generated ###
+local.json
+
+### built prod server side templates ###
+server/views/dist/
+
+### grunt temp directory ###
+.tmp
+
+### bower artifacts ###
+bower_components
